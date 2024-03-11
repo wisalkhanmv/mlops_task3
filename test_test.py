@@ -24,7 +24,7 @@ class TestStudentsInMLOps(unittest.TestCase):
 
     def test_getClassName(self):
         # Test the getClassName function
-        self.assertEqual(self.students.getClassName(), "Students In MLOps")
+        self.assertEqual(self.students.getClassName(), "StudentsInMLOps")
 
 if __name__ == '__main__':
     unittest.main()

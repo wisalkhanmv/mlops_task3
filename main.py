@@ -12,4 +12,4 @@ class StudentsInMLOps:
         return self.total_strength
 
     def getClassName(self):
-        return "Student In MLOps"
+        return "StudentsInMLOps"
