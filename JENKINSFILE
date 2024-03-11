@@ -1,0 +1,23 @@
+pipeline {
+    agent any
+    
+    stages {
+        stage('Build') {
+            steps {
+                // Add your build steps here
+            }
+        }
+        
+        stage('Test') {
+            steps {
+                sh 'pytest -v'
+            }
+        }
+        
+        stage('Deploy') {
+            steps {
+                echo 'deployed'
+            }
+        }
+    }
+}
