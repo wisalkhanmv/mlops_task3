@@ -10,7 +10,7 @@ pipeline {
         
         stage('Test') {
             steps {
-                sh 'pytest test_test.py'
+                sh 'python3 test_test.py'
             }
         }
         
