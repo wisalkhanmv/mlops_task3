@@ -9,7 +9,7 @@ class StudentsInMLOps:
         self.total_strength -= count
 
     def getTotalStrength(self):
-        return self.total_strength + 1
+        return self.total_strength
 
     def getClassName(self):
         return "Student In MLOps"
