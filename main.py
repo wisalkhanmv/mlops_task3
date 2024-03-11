@@ -13,5 +13,4 @@ class StudentsInMLOps:
 
     def getClassName(self):
         return "StudentsInMLOps"
-    def getUsername(self):
-        return "me"
+
