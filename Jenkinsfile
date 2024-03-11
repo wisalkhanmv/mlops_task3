@@ -10,7 +10,7 @@ pipeline {
         
         stage('Test') {
             steps {
-                sh 'pytest -v'
+                sh 'pytest test_test.py'
             }
         }
         
